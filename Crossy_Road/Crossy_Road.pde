@@ -93,7 +93,7 @@ void setup()
   }
 
   //ADD LIGHTING OPTIONS
-  lights.add(new PVector(255, 255, 255));
+  lights.add(new PVector(225, 225, 225));
   lights.add(new PVector(50, 50, 150));
   lights.add(new PVector(200, 100, 150));
   lightingMode = (int)random(0, lights.size());

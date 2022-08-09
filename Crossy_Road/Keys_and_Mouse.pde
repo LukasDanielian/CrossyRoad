@@ -1,7 +1,7 @@
 //GENERAL MOVEMENT
 void keyPressed()
 {
-  if (!gameOver)
+  if (!gameOver && !startScreen)
   {
     //UP
     if (keyCode == UP && canMove)

@@ -3,6 +3,7 @@ void renderLights()
 {
   pushMatrix();
   rotateX(-PI/6);
+  ambientLight(lights.get(lightingMode).x, lights.get(lightingMode).y, lights.get(lightingMode).z);
   directionalLight(lights.get(lightingMode).x, lights.get(lightingMode).y, lights.get(lightingMode).z, 0, 0, -1);
   popMatrix();
 }

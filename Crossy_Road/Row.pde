@@ -9,7 +9,7 @@ class Row
 
   //RIVER FX VARIABLES
   int col, row;
-  int scl = 5;
+  int scl = 10;
   int w;
   int h;
   float flying = 0;
